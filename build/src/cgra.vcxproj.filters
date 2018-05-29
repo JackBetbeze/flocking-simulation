@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\imgui_impl_glfw_gl3.cpp">
+      <Filter>src\cgra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\mesh.cpp">
+      <Filter>src\cgra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\shader.cpp">
+      <Filter>src\cgra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\ex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\flock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\lattice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\predator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\imgui_impl_glfw_gl3.h">
+      <Filter>src\cgra</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\ex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\opengl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\matrix.hpp">
+      <Filter>src\cgra</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\mesh.hpp">
+      <Filter>src\cgra</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\shader.hpp">
+      <Filter>src\cgra</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\flock.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\lattice.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\latticeNode.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\work\src\predator.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\work\src\obstacle.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{A3AED14F-ACE4-33D0-9F60-74FF96039225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cgra">
+      <UniqueIdentifier>{FCCA1D99-7BC7-3253-B23D-148638EFDA8C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/vendor/glew/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/vendor/glew/CMakeFiles/generate.stamp is up-to-date.
+  glew.c
+  glew.vcxproj -> C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\bin\Debug\glew.lib

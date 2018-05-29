@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9EDB07E6-148F-3202-A082-86F49EC82717}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cgra</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cgra.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cgra</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cgra.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cgra</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cgra.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cgra</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cgra.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cgra</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CGRA_SRCDIR="C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work";GLEW_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CGRA_SRCDIR=\"C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work\";GLEW_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\bin\Debug\glfw3.lib;opengl32.lib;..\bin\Debug\glew.lib;..\bin\Debug\imgui.lib;opengl32.lib;glu32.lib;kernel32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/bin/Debug/cgra.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/bin/Debug/cgra.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CGRA_SRCDIR="C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work";GLEW_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CGRA_SRCDIR=\"C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work\";GLEW_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\bin\Release\glfw3.lib;opengl32.lib;..\bin\Release\glew.lib;..\bin\Release\imgui.lib;opengl32.lib;glu32.lib;kernel32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/bin/Release/cgra.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/bin/Release/cgra.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CGRA_SRCDIR="C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work";GLEW_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CGRA_SRCDIR=\"C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work\";GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\bin\MinSizeRel\glfw3.lib;opengl32.lib;..\bin\MinSizeRel\glew.lib;..\bin\MinSizeRel\imgui.lib;opengl32.lib;glu32.lib;kernel32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/bin/MinSizeRel/cgra.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/bin/MinSizeRel/cgra.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CGRA_SRCDIR="C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work";GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CGRA_SRCDIR=\"C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work\";GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glfw\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glm;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\bin\RelWithDebInfo\glfw3.lib;opengl32.lib;..\bin\RelWithDebInfo\glew.lib;..\bin\RelWithDebInfo\imgui.lib;opengl32.lib;glu32.lib;kernel32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/bin/RelWithDebInfo/cgra.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/bin/RelWithDebInfo/cgra.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work -BC:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build --check-stamp-file C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/src/CMakeLists.txt;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work -BC:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build --check-stamp-file C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/src/CMakeLists.txt;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work -BC:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build --check-stamp-file C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/src/CMakeLists.txt;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work -BC:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build --check-stamp-file C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/src/CMakeLists.txt;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt;C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\imgui_impl_glfw_gl3.cpp" />
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\mesh.cpp" />
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\shader.cpp" />
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\ex.cpp" />
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\flock.cpp" />
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\lattice.cpp" />
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\main.cpp" />
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\predator.cpp" />
+    <ClInclude Include="..\..\work\src\obstacle.hpp" />
+    <ClInclude Include="..\..\work\src\predator.hpp" />
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\imgui_impl_glfw_gl3.h" />
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\ex.h" />
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\opengl.h" />
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\matrix.hpp" />
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\mesh.hpp" />
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\cgra\shader.hpp" />
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\flock.hpp" />
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\lattice.hpp" />
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\src\latticeNode.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\ZERO_CHECK.vcxproj">
+      <Project>{A202459D-7751-3528-B541-AD265D643843}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\vendor\glew\glew.vcxproj">
+      <Project>{33965310-5099-3C25-8573-5A10039B4B76}</Project>
+      <Name>glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\vendor\glfw\src\glfw.vcxproj">
+      <Project>{E2F499DF-C0EB-399F-844E-CEA5F67BC960}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\vendor\imgui\imgui.vcxproj">
+      <Project>{09DA00A8-ED1E-34B0-80CF-0CD874DA7D3F}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

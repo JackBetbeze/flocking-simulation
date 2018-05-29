@@ -1,0 +1,16 @@
+﻿  Building Custom Rule C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/vendor/glfw/src/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/vendor/glfw/src/CMakeFiles/generate.stamp is up-to-date.
+  context.c
+  init.c
+  input.c
+  monitor.c
+  window.c
+  win32_init.c
+  win32_monitor.c
+  win32_time.c
+  win32_tls.c
+  win32_window.c
+  winmm_joystick.c
+  wgl_context.c
+  Generating Code...
+  glfw.vcxproj -> C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\bin\Debug\glfw3.lib

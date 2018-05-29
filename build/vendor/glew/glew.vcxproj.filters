@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\src\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include\GL\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include\GL\glxew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\include\GL\wglew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\work\vendor\glew\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B11FB90F-3C62-362B-91A9-1CF360FF5A10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{22893ADE-D087-33B8-A556-46E571EF169E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

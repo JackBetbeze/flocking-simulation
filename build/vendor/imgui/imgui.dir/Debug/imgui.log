@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/work/vendor/imgui/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/jbetb/Documents/School/Spring2018/Graphics/Program4/cgra/build/vendor/imgui/CMakeFiles/generate.stamp is up-to-date.
+  imgui.cpp
+  imgui_draw.cpp
+  Generating Code...
+  imgui.vcxproj -> C:\Users\jbetb\Documents\School\Spring2018\Graphics\Program4\cgra\build\bin\Debug\imgui.lib
